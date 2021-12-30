@@ -30,7 +30,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <hal format="hidl">
         <name>vendor.qti.hardware.qccsyshal</name>
         <transport>hwbinder</transport>
+<<<<<<< PATCH SET (3cbe93 qssi: rev up qccsyshal to 1.2)
+        <version>1.0-2</version>
+=======
         <version>1.1</version>
+>>>>>>> BASE      (5b5ac3 qccsyshal version 1.1)
         <interface>
             <name>IQccsyshal</name>
             <instance>qccsyshal</instance>
