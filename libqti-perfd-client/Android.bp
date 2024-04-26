@@ -4,6 +4,9 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+soong_namespace {
+}
+
 cc_library_shared {
     name: "libqti-perfd-client",
     srcs: ["client.c"],
