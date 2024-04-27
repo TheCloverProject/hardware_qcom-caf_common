@@ -16,6 +16,23 @@
       "message": "Introduce more new HALs.",
       "revId": "293a2790752ede1c75f892fcd88db06dd1c98ced",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ebb774e_e11817d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33487
+      },
+      "writtenOn": "2024-04-27T11:43:42Z",
+      "side": 1,
+      "message": "vendor.qti.hardware.radio.ims V12 AIDL presented on Nothing Phone (2) A14 vendor, but current manifest doesn\u0027t include it. This solve the issue.",
+      "revId": "293a2790752ede1c75f892fcd88db06dd1c98ced",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
