@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3dbdc9e6_cafc6425",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-05-06T17:19:14Z",
+      "side": 1,
+      "message": "Not entirely sure about this one - this isn\u0027t a service you just build, it\u0027s a shared lib, this isn\u0027t something you build as standalone, not sure if it\u0027s worth a fragment",
+      "revId": "1778c9d3458f15532b9808b15f7ae65cbfa1221e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
