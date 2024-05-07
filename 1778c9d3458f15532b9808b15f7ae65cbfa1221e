@@ -52,6 +52,24 @@
       "parentUuid": "94b41e83_a1eb75e0",
       "revId": "1778c9d3458f15532b9808b15f7ae65cbfa1221e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "243d8cd6_690b1287",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-05-07T16:18:57Z",
+      "side": 1,
+      "message": "\u003e If you think it\u0027s better though, I can just add Soong namespace to the blueprint and forget the fragment.\n\nI would prefer this, it\u0027s a dependency, not something that works as is",
+      "parentUuid": "3aecba03_a1cbdc57",
+      "revId": "1778c9d3458f15532b9808b15f7ae65cbfa1221e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
