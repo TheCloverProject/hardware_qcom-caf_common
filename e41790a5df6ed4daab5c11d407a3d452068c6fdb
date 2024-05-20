@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e344c022_0623c7ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-05-20T09:01:34Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_hardware_qcom-caf_common/blob/lineage-21.0/vendor_framework_compatibility_matrix.xml#L788-L806",
+      "revId": "e41790a5df6ed4daab5c11d407a3d452068c6fdb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
