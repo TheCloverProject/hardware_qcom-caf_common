@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ebed328_c0dfc3ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-06-15T20:49:22Z",
+      "side": 1,
+      "message": "Not sure if I like this solution since it makes it harder to copy paste update from upstream. Maybe a separate manifest or just keep these entries in devices.",
+      "revId": "b3866b1ab545dcd41fc664fbb8052b4334b7e0e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
