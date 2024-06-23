@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13f66f46_57372457",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-06-23T12:49:29Z",
+      "side": 1,
+      "message": "This now covers APQ, MDM and MSM targets. RFS folder structure as seen on sm8550 dumps.",
+      "revId": "806fc62588c691809e637c70793511e4bb364fbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
