@@ -16,6 +16,24 @@
       "message": "This isn\u0027t common, how about MDM devices like sm8250?",
       "revId": "f053e8250b9bbee6fcf1597236711fa42613d0a2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34be8394_51d77279",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-06-23T12:25:22Z",
+      "side": 1,
+      "message": "I can add MDM symlinks as well.",
+      "parentUuid": "9d956ab5_e687070e",
+      "revId": "f053e8250b9bbee6fcf1597236711fa42613d0a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
