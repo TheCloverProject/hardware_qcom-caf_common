@@ -33,6 +33,41 @@
       "message": "Looks good, one could also guard symlinks per platform family but it shouldn\u0027t be an issue",
       "revId": "806fc62588c691809e637c70793511e4bb364fbd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6b598ca_fe793067",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-06-23T13:13:08Z",
+      "side": 1,
+      "message": "Goes with https://review.lineageos.org/q/I9560fd0da00958d9349a0881b5a5f64a2c02e495 + https://review.lineageos.org/q/I241105e01d85fea983b34846ca675666ac07541b",
+      "revId": "806fc62588c691809e637c70793511e4bb364fbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3609d95_ceeb3292",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-06-23T13:13:08Z",
+      "side": 1,
+      "message": "I don\u0027t think it\u0027s worth it. After all these are just symlinks.",
+      "parentUuid": "5ca07a76_aff207f2",
+      "revId": "806fc62588c691809e637c70793511e4bb364fbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
