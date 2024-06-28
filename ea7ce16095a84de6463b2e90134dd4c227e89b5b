@@ -69,6 +69,24 @@
       "message": "This fixes the crash on sm8550 with libperfmgr.\n\nI think the symbols exposed by the libqti-perfd-client.so are wrappers around the actual function. Like:\n```\n# function f\nbti c\nb f.cfi\n\n# function f.cfi\nactual implementation of f\n```\n\nThe correct signatures (as shown/guessed in ghidra) are:\n```\nvoid perf_event.cfi(int param_1,char *param_2,int param_3,int *param_4)\n\nint? perf_get_feedback.cfi(undefined8 param_1,undefined8 param_2)\n\nint perf_get_feedback_extn.cfi(undefined4 param_1,char *param_2,uint param_3,int *param_4)\n\nvoid perf_hint.cfi(int param_1,char *param_2,int param_3,int param_4)\n\nint perf_lock_acq.cfi(int param_1,int param_2,int *param_3,uint param_4)\n\nvoid perf_lock_cmd.cfi(int param_1)\n\nint perf_lock_rel.cfi(int param_1)\n\nuint64_t perf_lock_use_profile.cfi(void)\n\nvoid perf_wait_get_prop.cfi(undefined8 *param_1,char *param_2,char *param_3)\n```\n\nIf I understand correctly,\nFor parameters:\n1. If the parameters are passed IN to the caller, then we don\u0027t care about the correctness of the parameter list\n2. If some parameters are to be passed OUT from callee, then we need to handle the parameter list, and inside the function, we do something about the parameter, like set it to 0 or something \n3. The return types should be correct, and we should return some sane values.\n\n@hansol@hansol.ca do you also want to comment on this?",
       "revId": "ea7ce16095a84de6463b2e90134dd4c227e89b5b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99565d18_e0b14dea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33840
+      },
+      "writtenOn": "2024-06-28T06:44:39Z",
+      "side": 1,
+      "message": "Update commits to report correct value (0 for success) and return type",
+      "parentUuid": "727005d4_fc0fe839",
+      "revId": "ea7ce16095a84de6463b2e90134dd4c227e89b5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
