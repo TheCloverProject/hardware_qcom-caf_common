@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b630f1f6_1a126bc8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33800
+      },
+      "writtenOn": "2024-07-11T22:18:34Z",
+      "side": 1,
+      "message": "1. data-ipa-cfg-mgr is common and no need to bring sm6225 data-ipa-cfg-mgr, just use from sm8550.\n2. sepolicy_vndr is common too, use from sm8550",
+      "revId": "9a4c0941a567b53b22cb670020b678b48e372bc8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
