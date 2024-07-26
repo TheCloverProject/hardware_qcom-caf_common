@@ -3,6 +3,18 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+soong_config_bool_variable {
+    name: "sec_rfs_msm_mpss_readonly_firmware_symlink",
+    default_value: false,
+}
+
+soong_config_module_type {
+    name: "conditional_install_symlink",
+    module_type: "install_symlink",
+    config_namespace: "firmware_symlink_config",
+    vars: ["sec_rfs_msm_mpss_readonly_firmware_symlink"],
+}
+
 install_symlink {
     name: "rfs_apq_gnss_hlos_symlink",
     vendor: true,
@@ -395,10 +407,17 @@ install_symlink {
     symlink_target: "/data/vendor/tombstones/rfs/modem",
 }
 
-install_symlink {
+conditional_install_symlink {
     name: "rfs_msm_mpss_readonly_firmware_symlink",
     vendor: true,
     installed_location: "rfs/msm/mpss/readonly/firmware",
+    soong_config_variables: {
+        firmware_symlink_config: {
+            sec_rfs_msm_mpss_readonly_firmware_symlink: {
+                symlink_target: "/vendor/firmware-modem",
+            },
+        },
+    },
     symlink_target: "/vendor/firmware_mnt",
 }
 
