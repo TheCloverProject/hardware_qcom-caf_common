@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7824c165_7293a6b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31030
+      },
+      "writtenOn": "2024-07-26T19:41:02Z",
+      "side": 1,
+      "message": "conditionally set rfs_msm_mpss_readonly_firmware_symlink for samsung devices",
+      "revId": "880f8eb8a0e0541f0b234bab1c47537aae7feb2e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
