@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae4da206_70a9dd17",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31030
+      },
+      "writtenOn": "2024-07-28T08:41:25Z",
+      "side": 1,
+      "message": "works on samsung s23",
+      "revId": "ea641388affb978665569d7ea3839b89077456b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
