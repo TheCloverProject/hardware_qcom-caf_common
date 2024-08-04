@@ -16,6 +16,24 @@
       "message": "My two cents, if you have such differences you shouldn\u0027t use these targets but keep them in the device tree (especially since we\u0027re talking about Samsung, they really like to mess stuff up on qcom BSP)",
       "revId": "1ba7c61a1aa53d419982d4dcb70313506fb10fcb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b474d87e_54835e6d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31030
+      },
+      "writtenOn": "2024-08-04T17:34:43Z",
+      "side": 1,
+      "message": "Thank you for your feedback. The primary difference for Samsung qcom devices is the mpss firmware install_symlink target. Adding conditional configuration to accommodate this variation aligns with the introduction of common RFS install_symlink targets. This approach helps reduce unnecessary duplication of work while maintaining compatibility.",
+      "parentUuid": "da81e45c_bc7c4167",
+      "revId": "1ba7c61a1aa53d419982d4dcb70313506fb10fcb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
