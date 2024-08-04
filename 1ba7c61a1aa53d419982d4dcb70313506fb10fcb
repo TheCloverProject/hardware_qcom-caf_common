@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da81e45c_bc7c4167",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-04T15:12:52Z",
+      "side": 1,
+      "message": "My two cents, if you have such differences you shouldn\u0027t use these targets but keep them in the device tree (especially since we\u0027re talking about Samsung, they really like to mess stuff up on qcom BSP)",
+      "revId": "1ba7c61a1aa53d419982d4dcb70313506fb10fcb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
