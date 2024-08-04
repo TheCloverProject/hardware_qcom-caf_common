@@ -83,6 +83,16 @@ SOONG_CONFIG_rmnetctl += \
 # Set default values for rmnetctl config
 SOONG_CONFIG_rmnetctl_old_rmnet_data ?= false
 
+# Add rfs to soong config namespaces
+SOONG_CONFIG_NAMESPACES += rfs
+
+# Add supported variables to rfs config
+SOONG_CONFIG_rfs += \
+    msm_mpss_readonly_firmware_symlink_target
+
+# Set default values for rfs config
+SOONG_CONFIG_rfs_msm_mpss_readonly_firmware_symlink_target ?= firmware_mnt
+
 # Tell HALs that we're compiling an AOSP build with an in-line kernel
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 

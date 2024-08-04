@@ -395,11 +395,36 @@ install_symlink {
     symlink_target: "/data/vendor/tombstones/rfs/modem",
 }
 
-install_symlink {
+soong_config_module_type {
+    name: "msm_mpss_readonly_firmware_symlink",
+    module_type: "install_symlink",
+    config_namespace: "rfs",
+    variables: ["firmware_symlink_target"],
+    properties: ["symlink_target"],
+}
+
+soong_config_string_variable {
+    name: "firmware_symlink_target",
+    values: ["firmware_mnt", "firmware_modem"],
+}
+
+msm_mpss_readonly_firmware_symlink {
     name: "rfs_msm_mpss_readonly_firmware_symlink",
     vendor: true,
     installed_location: "rfs/msm/mpss/readonly/firmware",
-    symlink_target: "/vendor/firmware_mnt",
+    soong_config_variables: {
+        firmware_symlink_target: {
+            firmware_mnt: {
+                symlink_target: "/vendor/firmware_mnt",
+            },
+            firmware_modem: {
+                symlink_target: "/vendor/firmware_modem",
+            },
+            conditions_default: {
+                symlink_target: "/vendor/firmware_mnt",
+            }
+        },
+    },
 }
 
 install_symlink {
