@@ -16,6 +16,23 @@
       "message": "Need to check if the issue resolved on those devices without disabling perf_lock_acq.\n\nMaybe, possibly we could ditch log entirely?",
       "revId": "4f31a18923841d0cf0431b4e5d3246aad638e310",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c4a1199_0411a6bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-11T11:01:30Z",
+      "side": 1,
+      "message": "You only have to check for null for dereferenced pointers, not `int` arguments",
+      "revId": "4f31a18923841d0cf0431b4e5d3246aad638e310",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
