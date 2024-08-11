@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "568d409a_aaf1eae9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33840
+      },
+      "writtenOn": "2024-08-11T04:36:35Z",
+      "side": 1,
+      "message": "Need to check if the issue resolved on those devices without disabling perf_lock_acq.\n\nMaybe, possibly we could ditch log entirely?",
+      "revId": "4f31a18923841d0cf0431b4e5d3246aad638e310",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
