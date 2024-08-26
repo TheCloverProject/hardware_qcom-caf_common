@@ -16,6 +16,24 @@
       "message": "works on samsung s23",
       "revId": "ea641388affb978665569d7ea3839b89077456b9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15a2f781_cc8f7420",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-08-26T13:10:56Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "ae4da206_70a9dd17",
+      "revId": "ea641388affb978665569d7ea3839b89077456b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
