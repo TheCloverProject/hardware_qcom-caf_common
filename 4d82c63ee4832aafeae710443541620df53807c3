@@ -16,6 +16,24 @@
       "message": "When printing with `ALOGI`, should check the validity of the parameters, such as ensuring that there is at least one accessible element in the array. Additionally, you should prevent null pointer dereferencing to avoid potential crashes or undefined behavior.",
       "revId": "4d82c63ee4832aafeae710443541620df53807c3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e50038be_75721048",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33840
+      },
+      "writtenOn": "2024-09-09T13:40:15Z",
+      "side": 1,
+      "message": "If possible, could you please test this commit?\n\nhttps://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/399490\n\nIt should be address NPE issue.",
+      "parentUuid": "268605f8_ba09607d",
+      "revId": "4d82c63ee4832aafeae710443541620df53807c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
