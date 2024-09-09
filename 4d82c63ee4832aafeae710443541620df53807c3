@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "268605f8_ba09607d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31030
+      },
+      "writtenOn": "2024-09-09T12:59:44Z",
+      "side": 1,
+      "message": "When printing with `ALOGI`, should check the validity of the parameters, such as ensuring that there is at least one accessible element in the array. Additionally, you should prevent null pointer dereferencing to avoid potential crashes or undefined behavior.",
+      "revId": "4d82c63ee4832aafeae710443541620df53807c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
