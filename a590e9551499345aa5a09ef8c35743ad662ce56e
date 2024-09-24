@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ae01fbd_e6f21993",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2024-09-24T23:53:37Z",
+      "side": 1,
+      "message": "Since this is true by default here is an alternative:\n\n# Disable thermal HAL netlink framework on UM platforms that do not support it\nifneq ($(filter $(LEGACY_UM_PLATFORMS),$(TARGET_BOARD_PLATFORM)),)\n    $(call soong_config_set,qti_thermal,netlink,false)\nendif",
+      "revId": "a590e9551499345aa5a09ef8c35743ad662ce56e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
