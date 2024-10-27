@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0851ea86_f5790f5f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2024-10-27T02:47:42Z",
+      "side": 1,
+      "message": "It\u0027s added in https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/382088\nbut won\u0027t load unless it\u0027s also in manifest",
+      "revId": "f7167172d897a9e23fb6868a9e082b7fbd89001e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
