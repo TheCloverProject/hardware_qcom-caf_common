@@ -22,6 +22,30 @@
       },
       "revId": "3cbe9363eaf8e83cbedf371229dc932fdd83ca3c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b429c095_edcf2334",
+        "filename": "framework_manifest.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-10-28T17:44:11Z",
+      "side": 1,
+      "message": "Why do we even need a manifest here in the first place? This is device specific",
+      "parentUuid": "b41edb7f_34817679",
+      "range": {
+        "startLine": 33,
+        "startChar": 17,
+        "endLine": 33,
+        "endChar": 22
+      },
+      "revId": "3cbe9363eaf8e83cbedf371229dc932fdd83ca3c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
