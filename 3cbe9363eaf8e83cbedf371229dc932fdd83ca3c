@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b41edb7f_34817679",
+        "filename": "framework_manifest.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-10-28T17:37:54Z",
+      "side": 1,
+      "message": "I thought that this only worked for compatibility matrices, not for a manifest?",
+      "range": {
+        "startLine": 33,
+        "startChar": 17,
+        "endLine": 33,
+        "endChar": 22
+      },
+      "revId": "3cbe9363eaf8e83cbedf371229dc932fdd83ca3c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
